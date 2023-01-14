@@ -71,4 +71,38 @@
 /* Variables Dark Theme */
 
 /* Button Dark/Light */
-/* MINUTO 11:51 */
+
+/* BASE */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 0 var(--header-height) 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+h1,h2,h3,h4 {
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
+
+
+/* REUSABLE CSS CLASES */
+
+/* LAYOUT */
+
+/* NAV */
+
+/* Show menu */
+
+/* Active Link */
