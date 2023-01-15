@@ -230,9 +230,13 @@ img {
 }
 
 /* Show menu */
-
+.show-menu{
+    bottom: 0;
+}
 /* Active Link */
 
 /* Change background header */
 
 /* HOME */
+
+
