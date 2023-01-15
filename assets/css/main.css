@@ -183,7 +183,7 @@ img {
 @media screen and (max-width: 767px){
     .nav_menu{
         position: fixed;
-        bottom: 0;
+        bottom: -100%;  /* button: 0; muestra todo */
         left: 0;
         width: 100%;
         background-color: var(--body-color);
@@ -228,6 +228,7 @@ img {
 .nav_close:hover{
     color:var(--firts-color)
 }
+
 /* Show menu */
 
 /* Active Link */
