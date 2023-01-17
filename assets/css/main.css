@@ -233,6 +233,7 @@ img {
 .show-menu{
     bottom: 0;
 }
+
 /* Active Link */
 
 /* Change background header */
@@ -240,6 +241,37 @@ img {
 /* HOME */
 .home_container{
     gap: 1rem;
+}
+
+.home_content{
+    grid-template-columns: .5fr 3fr;
+    padding-top: 3.5rem;
+    align-items: center;
+}
+
+.home_social{
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.home_social-icon{
+    font-size: 1.25rem;
+    color: var(--firts-color);
+}
+
+.home_social-icon:hover{
+    color: var(--firts-color-alt);
+}
+
+/* Cambiar tamaño y fondo del SVG del perfil */
+.home_blob{
+    width: 200px;
+    fill: var(--firts-color);
+}
+
+.home_blob-img{
+    width: 170px;
 }
 
 /* BUTTONS */
