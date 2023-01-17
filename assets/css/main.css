@@ -298,7 +298,7 @@ img {
 
 /* Scroll Down */
 .home_scroll{
-    /* display: none; */
+    display: none;
 }
 
 .home_scroll-button{
