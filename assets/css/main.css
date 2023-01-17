@@ -390,6 +390,11 @@ img {
     text-align: center;
 }
 
+.about_buttons{
+    display: flex;
+    justify-content: center;
+}
+
 
 /* SKILLS */
 
