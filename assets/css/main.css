@@ -409,7 +409,7 @@ img {
 }
 
 .skills_icon,
-.skills_arrow{
+.skill_arrow{
     font-size: 2rem;
     color: var(--firts-color);
 }
@@ -427,7 +427,7 @@ img {
     color: var(--text-color-light);
 }
 
-.skills_arrow{
+.skill_arrow{
     margin-left: auto;
     transition: .4s;
 }
@@ -438,6 +438,62 @@ img {
     margin-bottom: var(--mb-0-5);
 }
 
+.skills_name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills_bar,
+.skills_percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills_bar{
+    background-color: var(--firts-color-lighter);
+}
+
+.skills_percentage{
+    display: block;
+    background-color: var(--firts-color);
+}
+
+/* Frontend Developer */
+.skills_html{
+    width: 90%;
+}
+.skills_css{
+    width: 80%;
+}
+.skills_js{
+    width: 20%;
+}
+
+/* Publicidad Profesional */
+.skills_digital{
+    width: 90%;
+}
+
+.skills_convencional{
+    width: 70%;
+}
+
+.skills_analitycs{
+    width: 90%;
+}
+
+/* Dising y Produccion */
+.skills_photoshop{
+    width: 90%;
+}
+
+.skills_adobe_premier{
+    width: 70%;
+}
+
+.skills_imovie{
+    width: 90%;
+}
 
 /* QUALIFICATION */
 
