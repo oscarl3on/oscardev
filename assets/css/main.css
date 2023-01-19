@@ -1,7 +1,7 @@
 /* GOOGLE FONTS https://fonts.google.com/*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-/* VARIABLES CSS */
+/* ====================VARIABLES CSS==================== */
 :root {
     --header-height: 3rem;
 
@@ -73,7 +73,7 @@
 
 /* Button Dark/Light */
 
-/* BASE */
+/* ====================BASE==================== */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -110,7 +110,7 @@ img {
     height: auto;
 }
 
-/* REUSABLE CSS CLASES */
+/* ====================REUSABLE CSS CLASES==================== */
 .section {
     padding: 2rem 0 4rem;
 }
@@ -132,7 +132,7 @@ img {
 
 
 
-/* LAYOUT */
+/* ====================LAYOUT==================== */
 .container{
     max-width: 768px;
     margin-left: var(--mb-1-5);
@@ -153,7 +153,7 @@ img {
     background-color: var(--body-color);
 }
 
-/* NAV */
+/* ====================NAV==================== */
 .nav{
     max-width: 968px;
     height: var(--header-height);
@@ -230,16 +230,16 @@ img {
     color:var(--firts-color)
 }
 
-/* Show menu */
+/* ====================Show menu==================== */
 .show-menu{
     bottom: 0;
 }
 
-/* Active Link */
+/* ====================Active Link==================== */
 
-/* Change background header */
+/* ====================Change background header==================== */
 
-/* HOME */
+/* ====================HOME==================== */
 .home_container{
     gap: 1rem;
 }
@@ -326,7 +326,7 @@ img {
     font-size: 1.25rem;
 }
 
-/* BUTTONS */
+/* ====================BUTTONS==================== */
 /* Boton Contact Me */
 .button{
     display: inline-block;
@@ -369,7 +369,7 @@ img {
     color: var(--firts-color-alt);
 }
 
-/* ABOUT */
+/* ====================ABOUT==================== */
 .about_img{
     width: 200px;
     border-radius: .5rem;
@@ -410,7 +410,7 @@ img {
 }
 
 
-/* SKILLS */
+/* ====================SKILLS==================== */
 .skills_container{
     row-gap: 0;
 }
@@ -528,7 +528,7 @@ img {
     transform: rotate(-180deg);
 }
 
-/* QUALIFICATION */
+/* ====================QUALIFICATION==================== */
 .qualification_tabs{
     display: flex;
     justify-content: space-evenly;
@@ -600,7 +600,7 @@ img {
     color: var(--firts-color);
 }
 
-/* SERVICES */
+/* ====================SERVICES==================== */
 .services_container{
     gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
@@ -699,14 +699,14 @@ img {
     visibility: visible;
 }
 
-/* PORTFOLIO */
+/* ====================PORTFOLIO==================== */
 
-/* PROJECT IN MIND */
+/* ====================PROJECT IN MIND==================== */
 
-/* TESTIMONIAL */
+/* ====================TESTIMONIAL==================== */
 
-/* CONTACT ME */
+/* ====================CONTACT ME==================== */
 
-/* FOOTER */
+/* ====================FOOTER==================== */
 
 
