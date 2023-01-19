@@ -95,6 +95,10 @@ modalCloses.forEach((modalClose) => {
 
 
 // PORTFOLIO SWIPER
+// https://www.jsdelivr.com/package/npm/swiper
+
+
+
 // TESTIMONIAL
 // SCROLL SECTIONS ACTIVE LINK
 // CHANGE BAKCKROUND HEADER
