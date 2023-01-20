@@ -97,7 +97,7 @@ modalCloses.forEach((modalClose) => {
 // PORTFOLIO SWIPER
 // https://www.jsdelivr.com/package/npm/swiper
 
-let swiperPortfolio = new Swiper(".mySwiperPortfolio", {
+let swiperPortfolio = new Swiper(".portfolio_container", {
     cssMode: true,
     loop: true,
     navigation: {
@@ -114,7 +114,7 @@ let swiperPortfolio = new Swiper(".mySwiperPortfolio", {
 
 
 // TESTIMONIAL
-let swiperTestimonial = new Swiper(".mySwiperTestimonial", {
+let swiperTestimonial = new Swiper(".testimonial_container", {
     // cssMode: true,
     loop: true,
     grabCursor: true,
@@ -138,6 +138,7 @@ let swiperTestimonial = new Swiper(".mySwiperTestimonial", {
             slidesPerView: 2,
         }
     }
+
   });
 
 
