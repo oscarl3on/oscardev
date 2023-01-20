@@ -97,7 +97,7 @@ modalCloses.forEach((modalClose) => {
 // PORTFOLIO SWIPER
 // https://www.jsdelivr.com/package/npm/swiper
 
-var swiper = new Swiper(".mySwiper", {
+let swiperPortfolio = new Swiper(".mySwiperPortfolio", {
     cssMode: true,
     loop: true,
     navigation: {
@@ -114,5 +114,34 @@ var swiper = new Swiper(".mySwiper", {
 
 
 // TESTIMONIAL
+let swiperTestimonial = new Swiper(".mySwiperTestimonial", {
+    // cssMode: true,
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 48,
+
+
+    // navigation: {
+    //   nextEl: ".swiper-button-next",
+    //   prevEl: ".swiper-button-prev",
+    // },
+
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    // mousewheel: true,
+    // keyboard: true,
+    breakpoints:{
+        568:{
+            slidesPerView: 2,
+        }
+    }
+  });
+
+
+
+
 // SCROLL SECTIONS ACTIVE LINK
 // CHANGE BAKCKROUND HEADER
