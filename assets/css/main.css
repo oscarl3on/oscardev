@@ -72,6 +72,9 @@
 /* Variables Dark Theme */
 
 /* Button Dark/Light */
+.nav_btns{
+    display: flex;
+}
 
 /* ====================BASE==================== */
 *{
