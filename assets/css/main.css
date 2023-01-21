@@ -241,6 +241,11 @@ img {
 }
 
 /* ====================Change background header==================== */
+/* Modifica la sombra del header al desplazarse */
+.scroll-header{
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+}
+
 
 /* ====================HOME==================== */
 .home_container{
