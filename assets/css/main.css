@@ -5,24 +5,18 @@
 :root {
     --header-height: 3rem;
 
-    /* Colors */
-    /* COLORES PLATZI: 228, 51, 15 / hsl(228, 51%, 15%)*/
-    /* Change favorite color */
-    --hue-color: 230;    /*Purple 250 - Green 142 - Blue 230 - Pink 340 */
-
-    /* HSL color mode para que sea compatible en todos los exploradores y el color siempre sea el mismo*/
-    --firts-color: hsl(var(--hue-color), 69%, 61%);
-    --firts-color-second: hsl(var(--hue-color), 69%, 61%);
-    --firts-color-alt: hsl(var(--hue-color), 57%, 53%);
-    --firts-color-lighter: hsl(var(--hue-color), 92%, 85%);
-    --title-color: hsl(var(--hue-color), 8%, 15%);
-    --text-color: hsl(var(--hue-color), 8%, 45%);
-    --text-color-light: hsl(var(--hue-color), 8%, 65%);
-    --input-color: hsl(var(--hue-color), 70%, 96%);
-    --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: #FFF;
-    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+    --firts-color:  #9fef00;
+    --firts-color-second: #141d2b;
+    --firts-color-alt: #afef00;
+    --firts-color-lighter: #e9ecef;
+    --title-color: #fff;
+    --text-color:#a4b1cd;
+    --text-color-light: #6c757d;
+    --input-color: #1a2332;
+    --body-color: #141d2b;
+    --container-color: #0a1424;
+    --scroll-bar-color: #1a2332;
+    --scroll-thumb-color: #9fef00;
 
     /* Font and typography */
     --body-font:'Poppins', sans-serif;
@@ -74,14 +68,18 @@
 /* Variables Dark Theme */
 body.dark-theme{
         /* HSL color mode para que sea compatible en todos los exploradores y el color siempre sea el mismo*/
-        --firts-color-second: hsl(var(--hue-color), 30%, 8%);
-        --title-color: hsl(var(--hue-color), 8%, 95%);
-        --text-color: hsl(var(--hue-color), 8%, 75%);
-        --input-color: hsl(var(--hue-color), 29%, 16%);
-        --body-color: hsl(var(--hue-color), 28%, 12%);
-        --container-color: hsl(var(--hue-color) 29% 16%);
-        --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
-        --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+        --firts-color:  #9fef00;
+        --firts-color-second: #141d2b;
+        --firts-color-alt: #afef00;
+        --firts-color-lighter: #e9ecef;
+        --title-color: #fff;
+        --text-color:#a4b1cd;
+        --text-color-light: #6c757d;
+        --input-color: #1a2332;
+        --body-color: #141d2b;
+        --container-color: #0a1424;
+        --scroll-bar-color: #1a2332;
+        --scroll-thumb-color: #9fef00;
 }
 
 /* Button Dark/Light */
@@ -178,13 +176,13 @@ img {
     bottom: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
+    background-color: var(--firts-color-second);
 }
 
 /* ====================NAV==================== */
 .nav{
     max-width: 968px;
-    height: var(--header-height);
+    height: var(--firts-color-second);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -192,8 +190,12 @@ img {
 
 .nav_logo,
 .nav_toggle{
-    color: var(--title-color);
+    color: var(--firts-color);
     font-weight: var(--font-medium);
+}
+
+.dev{
+    color: var(--title-color);
 }
 
 .nav_logo:hover{
@@ -209,13 +211,14 @@ img {
     color: var(--firts-color);
 }
 
+
 @media screen and (max-width: 767px){
     .nav_menu{
         position: fixed;
         bottom: -100%;  /* button: 0; muestra todo */
         left: 0;
         width: 100%;
-        background-color: var(--body-color);
+        background-color: var(--container-color);
         padding: 2rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
         border-radius: 1.5rem 1.5rem 0 0;
@@ -298,7 +301,7 @@ img {
 }
 
 .home_social-icon:hover{
-    color: var(--firts-color-alt);
+    color: var(--title-color);
 }
 
 /* Cambiar tamaño y fondo del SVG del perfil */
@@ -306,6 +309,8 @@ img {
     width: 200px;
     fill: var(--firts-color);
 }
+
+
 
 .home_blob-img{
     width: 170px;
@@ -367,7 +372,7 @@ img {
 .button{
     display: inline-block;
     background-color: var(--firts-color);
-    color: #FFF;
+    color: var(--firts-color-second);
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
@@ -385,12 +390,12 @@ img {
 }
 
 .button-white{
-    background-color: #FFF;
-    color: var(--firts-color);
+    background-color: var(--firts-color);
+    color: var(--firts-color-second);
 }
 
 .button-white:hover{
-    background-color: #FFF;
+    background-color: var(--firts-color-alt);
 }
 
 .button-flex{
@@ -653,7 +658,7 @@ img {
 .services_content{
     position: relative;
     background-color: var(--container-color);
-    padding: 3.5rem .5rem 1.25rem 1.5rem;
+    padding: 1.5rem .5rem 1.25rem 1.5rem;
     border-radius: .25rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
     transition: .3s;
@@ -802,6 +807,10 @@ margin-bottom: 2rem;
     background-color: var(--firts-color);
 }
 
+.swiper-pagination-bullet{
+    background-color: var(--firts-color-alt);
+}
+
 .swiper-button-prev,
 .swiper-button-next,
 .swiper-pagination-bullet{
@@ -813,7 +822,7 @@ margin-bottom: 2rem;
 }
 
 .project_bg{
-    background-color: var(--firts-color-second);
+    background-color: var(--container-color);
     padding-top: 3rem;
 }
 
@@ -835,6 +844,8 @@ margin-bottom: 2rem;
     width: 232px;
     justify-self: center;
 }
+
+
 
 
 
@@ -939,7 +950,7 @@ margin-bottom: 2rem;
 }
 
 .footer_bg{
-    background-color: var(--firts-color-second);
+    background-color: var(--container-color);
     padding: 2rem 0 3rem;
 }
 
@@ -1004,7 +1015,7 @@ margin-bottom: 2rem;
 
 .scrollup_icon{
     font-size: 1.5rem;
-    color: #FFF;
+    color: var(--firts-color-second);
 }
 
 /* Show scroll */
@@ -1110,6 +1121,7 @@ margin-bottom: 2rem;
         order: 1;
         justify-self: center;
     }
+
 
     .about_img{
         width: 350px;
@@ -1257,7 +1269,7 @@ margin-bottom: 2rem;
     }
 
     .services_content{
-        padding: 4rem 0 2rem 2.5rem;
+        padding: 1.5rem 0 1.5rem 1.5rem;
     }
 
     .services_modal-content{
@@ -1281,9 +1293,9 @@ margin-bottom: 2rem;
     }
 
     .project_container{
-        background-color: var(--firts-color-second);
+        background-color: var(--container-color);
         border-radius: 1rem;
-        padding: 3rem 2.5rem 0;
+        padding: 3rem 2.5rem 3rem;
         grid-template-columns: 1fr max-content;
         column-gap: 3rem;
     }
