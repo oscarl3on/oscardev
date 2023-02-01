@@ -845,6 +845,14 @@ margin-bottom: 2rem;
     justify-self: center;
 }
 
+.project_container{
+    background-color: var(--container-color);
+    border-radius: 1rem;
+    padding: 3rem 2.5rem 3rem;
+    grid-template-columns: 1fr max-content;
+    column-gap: 3rem;
+}
+
 
 
 
@@ -1044,22 +1052,6 @@ margin-bottom: 2rem;
 /* For small devices */
 @media screen and (max-width: 350px){
 
-    ::-webkit-scrollbar{
-        width: .6rem;
-        background-color: var(--scroll-bar-color);
-        border-radius: .5rem;
-    }
-    
-    ::-webkit-scrollbar-thumb{
-        background-color: var(--scroll-thumb-color);
-        border-radius: .5rem;
-    }
-    
-    ::-webkit-scrollbar-thumb:hover{
-        background-color: var(--text-color-light);
-    }
-
-
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -1126,22 +1118,6 @@ margin-bottom: 2rem;
 
 /* For medium devices */
 @media screen and (min-width: 568px){
-
-    ::-webkit-scrollbar{
-        width: .6rem;
-        background-color: var(--scroll-bar-color);
-        border-radius: .5rem;
-    }
-    
-    ::-webkit-scrollbar-thumb{
-        background-color: var(--scroll-thumb-color);
-        border-radius: .5rem;
-    }
-    
-    ::-webkit-scrollbar-thumb:hover{
-        background-color: var(--text-color-light);
-    }
-
     .home_content{
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -1184,24 +1160,16 @@ margin-bottom: 2rem;
         grid-template-columns: .6fr;
         justify-content: center;
     }
+
+    .project_container{
+        border-radius: 1rem;
+        padding: 3rem 2.5rem 3rem;
+        grid-template-columns: 1fr max-content;
+        column-gap: 3rem;
+    }
 }
 
 @media screen and (min-width: 768px){
-
-    ::-webkit-scrollbar{
-        width: .6rem;
-        background-color: var(--scroll-bar-color);
-        border-radius: .5rem;
-    }
-    
-    ::-webkit-scrollbar-thumb{
-        background-color: var(--scroll-thumb-color);
-        border-radius: .5rem;
-    }
-    
-    ::-webkit-scrollbar-thumb:hover{
-        background-color: var(--text-color-light);
-    }
 
     .container{
         margin-left: auto;
