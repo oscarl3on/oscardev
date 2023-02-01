@@ -15,7 +15,7 @@
     --input-color: #1a2332;
     --body-color: #141d2b;
     --container-color: #0a1424;
-    --scroll-bar-color: #1a2332;
+    --scroll-bar-color: #6c757d;
     --scroll-thumb-color: #9fef00;
 
     /* Font and typography */
@@ -78,7 +78,7 @@ body.dark-theme{
         --input-color: #1a2332;
         --body-color: #141d2b;
         --container-color: #0a1424;
-        --scroll-bar-color: #1a2332;
+        --scroll-bar-color: #6c757d;
         --scroll-thumb-color: #9fef00;
 }
 
@@ -182,7 +182,7 @@ img {
 /* ====================NAV==================== */
 .nav{
     max-width: 968px;
-    height: var(--firts-color-second);
+    height: var(--mb-2-5);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -220,7 +220,7 @@ img {
         width: 100%;
         background-color: var(--container-color);
         padding: 2rem 1.5rem 4rem;
-        box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+        box-shadow: 0 -1px 1px var(--firts-color);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
     }
