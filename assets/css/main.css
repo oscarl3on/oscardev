@@ -858,7 +858,7 @@ margin-bottom: 2rem;
     border-radius: 1rem;
     padding: 3rem 2.5rem 3rem;
     grid-template-columns: 1fr max-content;
-    column-gap: 3rem;
+    column-gap: 1rem;
 }
 
 
@@ -1517,7 +1517,7 @@ margin-bottom: 2rem;
         border-radius: 1rem;
         padding: 3rem 2.5rem 3rem;
         grid-template-columns: 1fr max-content;
-        column-gap: 3rem;
+        /* column-gap: 3rem; */
     }
 
     .project_data{
