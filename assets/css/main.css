@@ -750,6 +750,13 @@ img {
     margin-right: var(--mb-0-25);
 }
 
+.section-icon{
+    color: var(--firts-color);
+    margin-right: var(--mb-0-25);
+    font-size: 2rem;
+}
+
+
 /* Active Modal */
 .active-modal{
     opacity: 1;
@@ -848,6 +855,8 @@ margin-bottom: 2rem;
     color: #FFF;
 }
 
+
+
 .project_img{
     width: 232px;
     justify-self: center;
@@ -860,6 +869,8 @@ margin-bottom: 2rem;
     grid-template-columns: 1fr max-content;
     column-gap: 1rem;
 }
+
+
 
 
 
@@ -1597,3 +1608,40 @@ margin-bottom: 2rem;
     
 }
 
+/* CURSO FRONTEND */
+.section_title-fe {
+    font-size: var(--h1-font-size);
+    padding-top: 2rem;
+}
+
+.description-fe-container{
+    background-color:#e9ecef;
+    border-radius: 1rem;
+    padding: 1rem 2.5rem 3rem;
+    grid-template-columns: 1fr max-content;
+    column-gap: 1rem;
+}
+
+.project_description-fe{
+    color: var(--body-color);
+    text-align: justify;
+    margin-top: .5rem;
+}
+
+.etiqueta{
+    color: #9fef00;
+    background-color: var(--firts-color-second);
+    border-radius: 5px;
+    padding: 0 2px 0 2px;
+}
+
+.project_data-fe{
+    padding-top: .8rem;
+    padding-bottom: 1rem;
+}
+
+.centrar-fe{
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}

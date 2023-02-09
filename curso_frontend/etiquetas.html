@@ -14,7 +14,7 @@
 
 
 
-    <link href="assets/img/Favicon.png" rel="icon">
+    <link href="/assets/img/Favicon.png" rel="icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,10 +22,10 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <!-- SWIPER CSS -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
     <title>OSCARDEV-Frontend</title>
 </head>
 
@@ -33,19 +33,19 @@
     <!-- ====================HEADER==================== -->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="index.html" class="nav_logo">OSCAR<span class="dev">DEV</span></a>
+            <a href="/index.html" class="nav_logo">OSCAR<span class="dev">DEV</span></a>
 
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list grid">
 
                     <li class="nav_item">
-                        <a href="index.html" class="nav_link active-link">
+                        <a href="/index.html" class="nav_link active-link">
                             <i class="uil uil-estate nav_icon"></i> Inicio
                         </a>
                     </li>
 
                     <li class="nav_item">
-                        <a href="#skills" class="nav_link">
+                        <a href="/frontend.html#skills" class="nav_link">
                             <i class="uil uil-file-alt nav_icon"></i> HTML5
                         </a>
                     </li>
@@ -85,44 +85,86 @@
     <!-- ====================MAIN==================== -->
     <main class="main">
 
-    
-        <!-- ====================SERVICES==================== -->
-        <section class="services section" id="services">
+         <!-- ====================PROJECT IN MIND==================== -->
+         <section class="project section" id="cursofe">
+            <h2 class="section_title"><i class="uil uil-bookmark section-icon"></i>HTML</h2>
+            <!-- BG -->
+            <div>
 
-            <!-- Titulo y subtitulo -->
-            <h2 class="section_title">HTML5</h2>
-            <span class="section_subtitle">HyperText Markup Language</span>
-            <!--Fin-->
+                <!-- Contenedor del proyecto -->
+                <div class="description-fe-container container">
+                    <div class="project_data">
+                        <!-- <img src="/assets/img/ISONombre.png" alt="OSCARDEV Fotografia" class="project_img"> -->
+                        <!-- Titulo y descripcion -->
+                        <p class="project_description-fe">
+                            Es un lenguaje informático que estructura todas las páginas web en internet.
+                        </p>
 
-            <!-- Contenedor de los servicios -->
-            <div class="services_container container grid">
-                <!-- =====SERVICIO #1===== -->
-                <div class="services_content">
-                    <div>
-                        <i class="uil uil-html5 services_icon"></i>
-                        <h3 class="services_title">Descubriendo<br> HTML y Etiquetas</h3>
+                        <p class="project_description-fe">
+                            El código HTML les dice a los navegadores web cómo mostrar contenido como imágenes, enlaces
+                            y texto en una página web.
+                        </p>
+
+                        <p class="project_description-fe">
+                            Sus siglas en inglés significan HyperText Markup Language, lo que en español significa, Lenguaje de Marcado de Hipertexto.
+                        </p>
+                        <!-- ===== -->
+                    
                     </div>
 
-                    <!-- Botón ver mas -->
-                    <a href="/curso_frontend/etiquetas.html">
-                        <span class="button button-flex button-small button-link services_button">
-                            Ver más
-                            <i class="uil uil-arrow-right button_icon"></i>
-                        </span>
-                    </a>
-                    <!-- ==== -->
-
-                    
-               
-
+                </div>
+                <!-- ===== -->
 
             </div>
-            <!-- Fin -->
-        </section>
-        <!-- SERVICES FIN-->
+            <!-- ====== -->
 
+
+            <h2 class="section_title-fe"><i class="uil uil-bookmark section-icon"></i>Etiquetas</h2>
+            <!-- BG -->
+            <div>
+
+                <!-- Contenedor del proyecto -->
+                <div class="description-fe-container container">
+                    <div class="project_data-fe">
+
+                        <ul class="project_description-fe">
+                            <li>
+                                <span class="etiqueta"> &lt;button&gt;</span>
+                                es una etiqueta de apertura. Le dice al navegador web que queremos comenzar a mostrar un botón. Debe finalizar con una etiqueta de cierre. <span class="etiqueta"> &lt;/button&gt;</span>
+                            </li>  
+                        </ul>
+
+                        <div class="centrar-fe">
+                            <button>Hola, soy un botón</button>
+                        </div>
+                    
+                    </div>
+
+                    <div class="project_data-fe">
+                        <ul class="project_description-fe">
+                            
+                            <li>
+                                <span class="etiqueta"> &lt;img src="imagen" alt="Logo OscarDev"&gt;</span>
+                                es una etiqueta de apertura. Le dice al navegador web que queremos mostrar una imagen. Esta no posee una etiqueta de cierre y nos permite mostrar una imagen como la siguiente.
+                            </li>
+                            
+                        </ul>
+
+                        <div class="centrar-fe">
+                            <img src="/assets/img/ISONombre.png" alt="OSCARDEV-FE Logo" class="project_img">
+                        </div>
+
+                    </div>
+                </div>
+                <!-- ===== Contenedor de descripciones-->
+
+            </div>
+            <!-- ====== BG-->
+        </section>
+    
+    </main>
         
-</main>
+
     <!-- ====================FOOTER==================== -->
     <!-- <footer class="footer">
         <div class="footer_bg">
@@ -160,10 +202,10 @@
         <i class="uil uil-arrow-up scrollup_icon"></i>
     </a>
     <!-- ====================SWIPER JS==================== -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="/assets/js/swiper-bundle.min.js"></script>
 
     <!-- Javascript -->
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
 
 </body>
 
