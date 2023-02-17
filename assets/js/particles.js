@@ -2,23 +2,23 @@ particlesJS(
     {
         "particles": {
           "number": {
-            "value": 168,
+            "value": 80,
             "density": {
               "enable": true,
-              "value_area": 2998.7610382026364
+              "value_area": 800
             }
           },
           "color": {
-            "value": "#9fef00"
+            "value": "#2ae656"
           },
           "shape": {
-            "type": "circle",
+            "type": "star",
             "stroke": {
               "width": 0,
-              "color": "#9fef00"
+              "color": "#000000"
             },
             "polygon": {
-              "nb_sides": 12
+              "nb_sides": 10
             },
             "image": {
               "src": "img/github.svg",
@@ -28,7 +28,7 @@ particlesJS(
           },
           "opacity": {
             "value": 0.5,
-            "random": true,
+            "random": false,
             "anim": {
               "enable": false,
               "speed": 1,
@@ -37,7 +37,7 @@ particlesJS(
             }
           },
           "size": {
-            "value": 3.3,
+            "value": 3,
             "random": true,
             "anim": {
               "enable": false,
@@ -48,7 +48,7 @@ particlesJS(
           },
           "line_linked": {
             "enable": true,
-            "distance": 224.4776885211732,
+            "distance": 150,
             "color": "#ffffff",
             "opacity": 0.4,
             "width": 1
@@ -57,9 +57,9 @@ particlesJS(
             "enable": true,
             "speed": 6,
             "direction": "none",
-            "random": true,
+            "random": false,
             "straight": false,
-            "out_mode": "bounce",
+            "out_mode": "out",
             "bounce": false,
             "attract": {
               "enable": false,
@@ -73,7 +73,7 @@ particlesJS(
           "events": {
             "onhover": {
               "enable": true,
-              "mode": "grab"
+              "mode": "repulse"
             },
             "onclick": {
               "enable": true,
