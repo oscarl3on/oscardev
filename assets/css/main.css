@@ -52,6 +52,13 @@
     --Z-modal: 100;
 }
 
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
     :root {
@@ -1353,6 +1360,11 @@ margin-bottom: 2rem;
         top: 0;
         bottom: initial;
     }
+
+    /* main{
+        z-index: 99;
+        position: relative;
+    } */
 
     .header,
     .main,
